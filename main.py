@@ -12,7 +12,7 @@ if api_key:
 else:
     raise ValueError("OPENAI_API_KEY not found in environment variables")
 
-MODEL = 'gpt-4o'
+MODEL = 'gpt-5-mini'
 openai  = OpenAI()
 
 
