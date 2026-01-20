@@ -50,7 +50,7 @@ A modern web application that uses OpenAI's GPT-4o to transform any website into
     Open your browser and navigate to: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 3.  **Generate a Brochure**:
-    - Enter a valid URL (e.g., `https://edwarddonner.com`).
+    - Enter a valid URL (e.g., `https://example.com`).
     - Click **Generate Brochure**.
     - The AI will scrape the site, analyze links, and generate a brochure below.
 
