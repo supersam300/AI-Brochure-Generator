@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brochure Generator AI</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+    </div>
+
+    <main class="container">
+        <header class="header">
+            <h1>AI Brochure Generator</h1>
+            <p>Transform any website into a professional corporate brochure in seconds.</p>
+        </header>
+
+        <section class="input-section">
+            <div class="input-wrapper">
+                <input type="text" id="urlInput" placeholder="Enter website URL (e.g., https://edwarddonner.com)" />
+                <button id="generateBtn">Generate Brochure</button>
+            </div>
+            <p id="statusMessage" class="status"></p>
+        </section>
+
+        <section id="resultSection" class="result-section hidden">
+            <div class="result-card glass-panel">
+                <div class="result-header">
+                    <h2>Generated Brochure</h2>
+                    <button id="copyBtn" class="secondary-btn">Copy Markdown</button>
+                </div>
+                <div id="brochureContent" class="markdown-body"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
