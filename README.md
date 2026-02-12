@@ -6,7 +6,6 @@ A modern web application that uses OpenAI's GPT-4o to transform any website into
 
 - **AI-Powered Analysis**: Scrapes website content and intelligently selects relevant links.
 - **Automated Brochure Generation**: Creates a structured markdown brochure using GPT-4o.
-- **Modern UI**: Polished, responsive frontend with glassmorphism aesthetics.
 - **FastAPI Backend**: Robust Python backend serving both the API and static assets.
 
 ## Prerequisites
